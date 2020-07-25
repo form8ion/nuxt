@@ -1,0 +1,6 @@
+_extends: .github
+repository:
+  name: nuxt
+  description: opinionated scaffolder for Nuxt.js
+  homepage: 'https://npm.im/@form8ion/nuxt'
+  private: false
