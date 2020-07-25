@@ -3,6 +3,9 @@ import scaffold from './scaffold';
 
 suite('scaffold', () => {
   test('that nuxt dependencies are defined', async () => {
-    assert.deepEqual(await scaffold().dependencies, ['nuxt']);
+    const {dependencies, devDependencies} = await scaffold();
+
+    assert.deepEqual(dependencies, ['nuxt']);
+    assert.deepEqual(devDependencies, ['@vue/test-utils']);
   });
 });

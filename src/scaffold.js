@@ -1,3 +1,6 @@
 export default function () {
-  return {dependencies: ['nuxt']};
+  return {
+    dependencies: ['nuxt'],
+    devDependencies: ['@vue/test-utils']
+  };
 }
