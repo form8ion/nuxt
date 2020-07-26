@@ -18,11 +18,13 @@ suite('scaffold', () => {
   test('that nuxt dependencies are defined', async () => {
     const projectRoot = any.string();
 
-    const {dependencies, devDependencies, scripts} = await scaffold({projectRoot});
+    const {dependencies, devDependencies, scripts, vcsIgnore, buildDirectory} = await scaffold({projectRoot});
 
     assert.calledWith(config.default, {projectRoot});
     assert.deepEqual(dependencies, ['nuxt']);
     assert.deepEqual(devDependencies, ['@vue/test-utils', '@nuxtjs/eslint-module']);
+    assert.deepEqual(buildDirectory, 'dist/');
+    assert.deepEqual(vcsIgnore.directories, ['.nuxt/']);
     assert.deepEqual(
       scripts,
       {
