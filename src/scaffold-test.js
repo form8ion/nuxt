@@ -22,7 +22,7 @@ suite('scaffold', () => {
 
     assert.calledWith(config.default, {projectRoot});
     assert.deepEqual(dependencies, ['nuxt']);
-    assert.deepEqual(devDependencies, ['@vue/test-utils']);
+    assert.deepEqual(devDependencies, ['@vue/test-utils', '@nuxtjs/eslint-module']);
     assert.deepEqual(
       scripts,
       {

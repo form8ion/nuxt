@@ -12,6 +12,6 @@ export default async function ({projectRoot}) {
       serve: 'nuxt serve'
     },
     dependencies: ['nuxt'],
-    devDependencies: ['@vue/test-utils']
+    devDependencies: ['@vue/test-utils', '@nuxtjs/eslint-module']
   };
 }
