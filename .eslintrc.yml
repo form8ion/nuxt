@@ -7,4 +7,10 @@ overrides:
   - files: example.js
     rules:
       import/no-extraneous-dependencies: off
-
+  - files: templates/*.js
+    rules:
+      import/no-unresolved: off
+      import/extensions: off
+      object-curly-spacing: off
+      comma-dangle: off
+      semi: off
