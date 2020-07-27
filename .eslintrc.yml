@@ -11,6 +11,3 @@ overrides:
     rules:
       import/no-unresolved: off
       import/extensions: off
-      object-curly-spacing: off
-      comma-dangle: off
-      semi: off
