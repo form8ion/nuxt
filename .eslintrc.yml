@@ -7,4 +7,7 @@ overrides:
   - files: example.js
     rules:
       import/no-extraneous-dependencies: off
-
+  - files: templates/*.js
+    rules:
+      import/no-unresolved: off
+      import/extensions: off
