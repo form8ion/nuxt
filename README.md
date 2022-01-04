@@ -14,6 +14,8 @@ opinionated scaffolder for [Nuxt.js](https://nuxtjs.org/)
 * [Usage](#usage)
   * [Installation](#installation)
   * [Example](#example)
+    * [Import](#import)
+    * [Execute](#execute)
 * [Contributing](#contributing)
   * [Dependencies](#dependencies)
   * [Verification](#verification)
@@ -39,15 +41,13 @@ $ npm install @form8ion/nuxt --save-prod
 #### Import
 
 ```javascript
-import {scaffold} from '@form8ion/nuxt';
+import {scaffold} from './lib/index.cjs';
 ```
 
 #### Execute
 
 ```javascript
-(async () => {
   await scaffold({projectRoot: process.cwd()});
-})();
 ```
 
 ## Contributing
