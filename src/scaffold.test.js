@@ -1,8 +1,8 @@
 import {afterEach, describe, expect, it, vi} from 'vitest';
 import any from '@travi/any';
 
-import * as config from './config';
-import scaffold from './scaffold';
+import * as config from './config.js';
+import scaffold from './scaffold.js';
 
 vi.mock('./config');
 

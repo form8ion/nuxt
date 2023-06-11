@@ -41,7 +41,7 @@ $ npm install @form8ion/nuxt --save-prod
 #### Import
 
 ```javascript
-import {scaffold} from './lib/index.cjs';
+import {scaffold} from '@form8ion/nuxt';
 ```
 
 #### Execute

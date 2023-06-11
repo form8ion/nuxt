@@ -1,4 +1,4 @@
-import scaffoldConfig from './config';
+import scaffoldConfig from './config.js';
 
 export default async function ({projectRoot}) {
   await scaffoldConfig({projectRoot});
