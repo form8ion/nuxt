@@ -38,6 +38,7 @@
     "test:unit:base": "DEBUG=any vitest run",
     "lint:peer": "npm ls >/dev/null",
     "prepare": "husky install",
+    "lint:js:fix": "run-s 'lint:js -- --fix'",
     "lint:publish": "publint --strict"
   },
   "files": [
