@@ -98,7 +98,7 @@ $ npm test
 
 [coverage-link]: https://codecov.io/github/form8ion/nuxt
 
-[coverage-badge]: https://img.shields.io/codecov/c/github/form8ion/nuxt.svg
+[coverage-badge]: https://img.shields.io/codecov/c/github/form8ion/nuxt?logo=codecov
 
 [license-link]: LICENSE
 
@@ -106,7 +106,7 @@ $ npm test
 
 [npm-link]: https://www.npmjs.com/package/@form8ion/nuxt
 
-[npm-badge]: https://img.shields.io/npm/v/@form8ion/nuxt.svg
+[npm-badge]: https://img.shields.io/npm/v/@form8ion/nuxt?logo=npm
 
 [runkit-link]: https://npm.runkit.com/@form8ion/nuxt
 
