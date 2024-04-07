@@ -9,8 +9,8 @@
   "bugs": "https://github.com/form8ion/nuxt/issues",
   "homepage": "https://npm.im/@form8ion/nuxt",
   "runkitExampleFilename": "./example.js",
-  "main": "./lib/index.js",
   "exports": "./lib/index.js",
+  "main": "./lib/index.js",
   "sideEffects": false,
   "scripts": {
     "pretest": "run-s build",
