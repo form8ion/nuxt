@@ -53,7 +53,7 @@
   "packageManager": "npm@10.5.1+sha256.06b9421a6b708ed6b6c0840e54729851e067b45ad911b192ebee2cb03b0adef2",
   "devDependencies": {
     "@babel/register": "7.23.7",
-    "@cucumber/cucumber": "10.0.1",
+    "@cucumber/cucumber": "10.4.0",
     "@form8ion/commitlint-config": "1.0.76",
     "@form8ion/eslint-config": "7.0.9",
     "@form8ion/eslint-config-cucumber": "1.4.1",
