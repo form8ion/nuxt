@@ -50,7 +50,7 @@
     "access": "public",
     "provenance": true
   },
-  "packageManager": "npm@11.4.0",
+  "packageManager": "npm@11.4.1",
   "devDependencies": {
     "@babel/register": "7.27.1",
     "@cucumber/cucumber": "11.3.0",
